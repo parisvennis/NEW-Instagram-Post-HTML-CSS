@@ -3,4 +3,49 @@
     width: 400px;
     height: auto;
     margin: auto;
+    background-color: white;
+}
+.words {
+    display: inline;
+    font-size: 18x;
+}
+.emojis {
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 15px;
+   background-color: white;
+}
+#bookmark {
+    float: right;
+}
+.likedby {
+    margin-bottom: 1em;
+}
+.likedby .bold {
+    font-weight: bold;
+}
+body {
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+}
+.bottom {
+    border:0px red solid;
+    background-color: white;
+    padding: 15px; 
+}
+.pic5 {
+    float: left;
+    display: flex;
+    justify-content: left;
+    width: 10%;
+    height: 10%;
+    margin: 5px;
+}
+.menu {
+    float: right;
+    margin: auto;
+    display: flex;
+    font-size:1.5em;
+    margin-right: 5px;
+    margin-top: 12px;
 }
